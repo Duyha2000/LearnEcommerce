@@ -1,0 +1,20 @@
+Bài tập 1:
+<div>
+    <h3>Paragraph divider</h3>
+    <hr />
+    <p>
+    This is a Paragraph <br />
+    with a line break
+    </p>
+</div>
+
+Bài 2:
+<h1>Format text marked</h1>
+<p>Please use only HTML without CSS</p>
+<ul>
+    <li>This word is emphasized</li>
+    <li>This wword is italic</li>
+    <li>This wword is superscript</li>
+    <li>This wword is emphasized</li>
+    <li>This wword is emphasized</li>
+</ul>
