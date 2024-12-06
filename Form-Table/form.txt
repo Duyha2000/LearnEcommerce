@@ -1,0 +1,84 @@
+ <form>
+      <label>Nhập tên đăng nhập</label>
+      <input type="text" placeholder="Nhập tên đăng nhập của bạn..." />
+      <br />
+      <label>Nhập mật khẩu</label>
+      <input type="password" />
+      <input type="email" />
+      <input type="date" />
+      <input type="number" />
+
+      <div>Giới tính</div>
+      <div>
+        name="gender" checked: mặc định khi vào trang web radio sẽ được tick, 2
+        input muốn chọn 1 trong 2 thì phải cùng tên. Ví dụ: Nam và Nữ cùng
+        name="gender"
+      </div>
+      <input type="radio" name="gender" checked />
+      <label>Nam</label>
+
+      <input type="radio" name="gender" />
+      <label>Nữ</label>
+
+      <br />
+
+      <div>Checkbox</div>
+      <input type="checkbox" />
+      <span>Tôi đã đọc kỹ điều khoản sử dụng</span>
+
+      <br />
+
+      <select>
+        <option>Chọn tỉnh thành</option>
+        <option>Hồ Chí Minh</option>
+        <option>Hà Nội</option>
+        <option>Đà Nẵng</option>
+      </select>
+      <br />
+      <button>Đăng ký</button>
+    </form>
+
+    ---
+    <form>
+      <label>User Name</label>
+      <input type="text" placeholder="Nhập email hoặc username" />
+      <br />
+      <label>Emai</label>
+      <input type="email" placeholder="Value" />
+      <br />
+
+      <input type="number" placeholder="Enter Phone Number" />
+      <button>Verity</button>
+      <br />
+      <label>Personal ID Number</label>
+      <br />
+      <input type="text" placeholder="Value" />
+      <br />
+      <input type="radio" name="gender" checked /> <label>Male</label>
+      <input type="radio" name="gender" /> <label>Female</label>
+      <br />
+      <label>Write anything</label>
+      <br />
+      <input type="text" placeholder="Enter your text here" />
+      <br />
+      <label>Select an option below</label>
+      <br />
+      <select>
+        <option>Select option</option>
+        <option>Select option 1</option>
+        <option>Select option 2</option>
+      </select>
+      <br />
+      <label>Choose a date</label>
+      <br />
+      <input type="date" placeholder="Select a date" /> <br />
+      <textarea cols="20" rows="10"></textarea>
+      <input type="checkbox" />
+      <label
+        >In publishing and graphic design, Lorem ipsum is a placeholder text
+        commonly used to demonstrate the visual form of a document or a typeface
+        without relying on meaningful content.</label
+      >
+      <br />
+      <button>Submit</button>
+    </form>
